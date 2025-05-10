@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="estilo.css">
+    <title>mirtha</title>
+</head>
+
+<body>
+    <!-- SECCION I N I C I O -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>/MB/</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE TI</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">QUIERO DECIRTE</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">NUESTRAS FOTOS</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONCLUSIÓN</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+
+                    <div class="redes">
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>Soy <span>STEVEN </span>Hijo de MIRTHA LUZ BARRETO </h2>
+                <p class="descripcion">Feliz Día de las Madres, mamá ❤️
+                    Hoy quiero recordarte lo especial que eres para mí. Gracias por tu amor incondicional, tu paciencia infinita y por estar siempre a mi lado, en cada paso que doy. Eres mi ejemplo de fortaleza, ternura y sabiduría.
+                    Te amo más de lo que las palabras pueden expresar. ¡Disfruta tu día al máximo porque te lo mereces todo y más! </p>
+                <a href="#portfolio">Ir a las fotos</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION S O B R E M I -->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="img/MAMÁ.jpeg" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi mamá</p>
+            <h2>Hola, mi mamá se llama <span>mirtha</span> </h2>
+            <h3>Descripción de mi mamá</h3>
+            <p>Feliz Día de las Madres, mamá ❤️
+                No tengo que decir mucho, porque lo sabes: tú eres todo para mí. Mi fuerza, mi apoyo, mi alegría... mi todo. Gracias por ser quien eres y por darme tanto amor cada día.</p>
+            <p>Te amo con todo mi corazón.</p>
+            <!-- <a href="#">Descargar CV</a>-->
+        </div>
+    </section>
+
+    <!-- SECCION S E R V I C I O S -->
+    <section id="servicios">
+        <h3 class="titulo-seccion">Quiero decirte</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"> <i class="fa fa-heart"></i></span>
+                <h4>motivacion</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>pensadora </li>
+                    <li>solidaridad</li>
+                    <li>calida</li>
+                </ul>
+                <p>eres una persona que piensa en los demas y busca un ambiente pacifico</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa fa-graduation-cap"></i></span>
+                <h4>personalidad</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>gritona</li>
+                    <li>emprendedora</li>
+                    <li>caritativa</li>
+                </ul>
+                <p>eres una persona que le gusta ser solidario con los demas siempre que puede</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa fa-plane"></i></span>
+                <h4>amistad</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>amigable</li>
+                    <li>sociable</li>
+                    <li>carismatica</li>
+                </ul>
+                <p>eres una persona que busca siempre tener buenas amistades al lado, y usas el carisma como fuerte para ello</p>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-database"></i></span>
+                <h4>familia</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>hijo</li>
+                    <li>padre</li>
+                    <li>abuela</li>
+                </ul>
+                <p>haces que todas tus personas al rededor sean parte de tu familia aunque no sean de sangre</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-palette"></i></span>
+                <h4>mejoras</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>gritona</li>
+                    <li>pega y pregunta</li>
+                    <li>ira</li>
+                </ul>
+                <p>aunque hay errores como todos puedes mejorarlos, como el de hablar gritado</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-person-circle-question"></i></span>
+                <h4>cumplidos</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>joven</li>
+                    <li>bonita</li>
+                    <li>y bien acompañada</li>
+                </ul>
+                <p>te han dejado bien en claro que no aparentas lo que tienes lo cual es cumplido muy lindo</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION H A B I L I D A D E S -->
+    <div class="contenedor-skills" id="skills">
+        <h3>HABILIDADES </h3>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>amor incondicional</p>
+                <span class="porcentaje">100%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="html"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>cocinera</p>
+                <span class="porcentaje">100%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="js"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>regaños injustos</p>
+                <span class="porcentaje">100%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="bd"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>favores</p>
+                <span class="porcentaje">100%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="ps"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portfolio">
+        <h3 class="titulo-seccion">Mis Proyectos</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/IMG_mom1.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/mom2.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/mom3.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto4.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto5.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto6.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto7.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto8.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto9.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCTION C O N T A C T O -->
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contactanos ahora</h3>
+        <div class="contenedor-form">
+            <form action="">
+                <div class="fila mitad">
+                    <input type="text" placeholder="Nombre Completo *" class="input-mitad">
+                    <input type="email" placeholder="Dirección de Email" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Tema..." class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje..." class="input-full"></textarea>
+                </div>
+
+                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+            </form>
+        </div>
+    </section>
+
+    <!-- SECCION FOOTER -->
+    <footer>
+        <p>Todos los derechos reservados - 2025</p>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
